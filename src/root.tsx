@@ -1,16 +1,15 @@
-import { Counter } from './components/counter/counter';
-import { Logo } from './components/logo/logo';
+import UserList from "./examples/user-list";
 
 export default () => {
   return (
     <>
       <head>
         <meta charSet="utf-8" />
-        <title>Qwik Blank App</title>
+        <title>Qwik LocalStorage</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <h1>Qwik LocalStorage</h1>
+        <UserList />
       </body>
     </>
   );

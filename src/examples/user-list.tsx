@@ -23,7 +23,7 @@ export default component$(() => {
       </button>
 
       <ul>
-        {data.value?.map((user: any) => (
+        {data.value?.map((user) => (
           <li key={user}>{user}</li>
         ))}
       </ul>

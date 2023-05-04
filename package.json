@@ -1,7 +1,11 @@
 {
-  "name": "my-qwik-library-name",
-  "version": "0.0.1",
-  "description": "Create a reusable Qwik component library",
+  "name": "qwik-localstorage",
+  "version": "1.0.0",
+  "description": "Qwik hook for localstorage access",
+  "author": {
+    "email": "harshdev8218@gmail.com",
+    "name": "Harsh Mangalam"
+  },
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",

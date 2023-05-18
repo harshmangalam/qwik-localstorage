@@ -1,11 +1,14 @@
 {
   "name": "qwik-localstorage",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Qwik hook for localstorage access",
   "author": {
     "email": "harshdev8218@gmail.com",
     "name": "Harsh Mangalam"
   },
+  "keywords": [
+    "qwik"
+  ],
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",

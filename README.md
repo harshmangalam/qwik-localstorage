@@ -2,6 +2,15 @@
 
 ---
 
+## Install
+
+```
+npm i qwik-localstorage
+yarn add qwik-localstorage
+pnpm i qwik-localstorage
+
+```
+
 ## Usage
 
 ```js

@@ -1,7 +1,7 @@
 import { $, useOnWindow, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 
 export function useLocalStorage<T>(key: string, defaultValue: T) {
-  const data = useSignal<T>();
+  const data = useSignal<T | null>(null);
 
   const set = $((payload: T) => {
     const stringifiedData = JSON.stringify(payload);

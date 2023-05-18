@@ -4,11 +4,16 @@
 
 ## Install
 
-```
+```sh
 npm i qwik-localstorage
-yarn add qwik-localstorage
-pnpm i qwik-localstorage
+```
 
+```sh
+pnpm i qwik-localstorage
+```
+
+```sh
+yarn add qwik-localstorage
 ```
 
 ## Usage

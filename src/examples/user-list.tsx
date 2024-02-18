@@ -1,10 +1,10 @@
 import { component$, useSignal } from "@builder.io/qwik";
-import { useLocalStorage } from "../components/use-localstorage";
+import { useLocalStorage } from "../use-localstorage";
 
 export default component$(() => {
   const input = useSignal("");
 
-  const { data, set, remove } = useLocalStorage<string[]>("users", []);
+  const { data, set, remove } = useLocalStorage<string[]>("users");
 
   return (
     <div>

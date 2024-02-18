@@ -1,6 +1,6 @@
 import { $, useOnWindow, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 
-export function useLocalStorage<T>(key: string, defaultValue: T) {
+export function useLocalStorage<T>(key: string, defaultValue?: T) {
   const data = useSignal<T | null>(null);
 
   const set = $((payload: T) => {

@@ -1,1 +1,1 @@
-export * from "./components/use-localstorage";
+export * from "./use-localstorage";
